@@ -10,4 +10,6 @@ from django.conf.urls import patterns, url
 urlpatterns = patterns('api.views',
        url(r'^$', 'index'),
        url(r'^list$', 'list'),
+       url(r'^login', 'Login'),
+       url(r'^logout', 'Logout'),
 )
